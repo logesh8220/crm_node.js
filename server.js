@@ -22,7 +22,7 @@ db.once("open", function () {
 });
 app.use(
     cors({
-        origin:"http://localhost:3000"
+        origin:process.env.CLINT_URL
     })
 );
 
