@@ -17,6 +17,7 @@
     "heroku": "^7.63.4",
     "jsonwebtoken": "^8.5.1",
     "local": "^0.3.3",
+    "mongodb": "^4.10.0",
     "mongoose": "^6.6.3",
     "nodemailer": "^6.8.0",
     "shortid": "^2.2.16",
