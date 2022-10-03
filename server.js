@@ -29,9 +29,6 @@ app.use(
 //Middleware
 app.use(express.json());
 
-app.get("/", function (req, res) {
-  res.json("HI THERE");
-});
 //Authantication
 
 app.post("/signin", async function (req, res) {
