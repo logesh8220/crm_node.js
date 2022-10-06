@@ -20,11 +20,7 @@ db.on("error", console.error.bind(console, "connection error: "));
 db.once("open", function () {
   console.log("Connected successfully");
 });
-app.use(
-  cors({
-    origin: process.env.CLINT_URL,
-  })
-);
+app.use(cors());
 
 //Middleware
 app.use(express.json());
