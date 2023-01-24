@@ -7,7 +7,7 @@ const mailFunction = async (requirdOptions) => {
             service: "gmail",
             auth: {
                 user: process.env.EMAIL,
-                pass: ontzzvqgqxinughr
+                pass: process.env.PASS
             },
             tls: {
                 rejectUnauthorized: false
